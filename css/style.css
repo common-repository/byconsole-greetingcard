@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+*:focus {
+
+	outline: 1px solid red !important;
+
+}
+
+
+
+#gcard_pdf_link_field{display:none;}
+
+
+
+#result_text_value{background: #0FF;width: 100px;text-decoration: none;text-align: center;padding: 10px 0px; display:none;}
+
+
+
+#byconsole_charNum{font-size: 12px;color: red;font-weight: bold;text-transform: capitalize;}
+
+
+
+#byconsole_cusgcard_trigger{background: #ffa500;color:#000; width: 100px;text-decoration: none;text-align: center;padding: 10px 0px; display:none; clear:both;}
+
+
+
+.byconsole_card_cross{float: right;position: absolute;margin-left: 95%;margin-top: -15px;background-color: #f00;padding: 0px 5px;border-radius: 15px;text-align: center;cursor: pointer; font-size:12px;}
+
+
+
+#receiver_image_continer{ margin-bottom:20px;}
+
+
+
+#sender_image_continer{margin-bottom:20px;}
+
+
+
+.select_demo_card_section input[type="radio"]{float: left;margin-top: 10px;}
+
+.byconsolecusgreetcard_radio_box{float: left;margin-right: 8px;font-size: 9px;margin-top: 5px;font-weight: bold !important;}
+
+
+
+#byconsolecusgreetcard_hidden_radio_box_val{display:none;}
+
+#byconsole_cusgcard_contenier{position:absolute;}
+
+
+
+input[name=byconsolecusgreetcard_radio_box]{ float:right; clear:both;}
